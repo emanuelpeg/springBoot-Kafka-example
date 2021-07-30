@@ -10,6 +10,8 @@ public class Message {
     private String message;
     private LocalDateTime time;
 
+    public Message() {}
+
     public Message(long id, String message, LocalDateTime time) {
         this.id = id;
         this.message = message;
